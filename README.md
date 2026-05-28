@@ -1,1 +1,1 @@
-A bot that connects Jira and Slack whose purpose is to track the IT Jira ticket process and post the weekly reports to the team Slack channel
+Overall project goal is to make a bot that connects Jira and Slack whose purpose is to track the IT Jira ticket process and post the weekly reports to the team Slack channel. First step was to learn Jira API and create .env file that stores Jira credentials (URL, email, API Token). Then get first API call from Jira to return tickets using get_open_tickets function in jira_client.py and then analyze the data of the list of tickets.
