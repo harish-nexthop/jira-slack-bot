@@ -20,6 +20,8 @@ def get_open_tickets():
     values = get_request.json()
     print(values)
     print (values["issues"])
+    return (values["issues"])
+
 
     
 
